@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 02/07/20 13:41:00 by Eclipse SUMO netedit Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="C:\Users\Dylan%20B\Desktop\Hood%20Stuff\2020%20-2021\CS%20475%20Senior%20Seminar\sumo-win64-1.4.0\sumo-1.4.0\bin\Prototype1.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <route-files value="C:\Users\Dylan%20B\Desktop\Hood%20Stuff\2020%20-2021\CS%20475%20Senior%20Seminar\sumo-win64-1.4.0\sumo-1.4.0\bin\Traffic%20Prototype.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route edges="gneE13 gneE16" color="yellow" id="route_0"/>
+    <route edges="gneE13 gneE18" color="blue" id="route_1"/>
+    <route edges="gneE14 gneE19" color="blue" id="route_10"/>
+    <route edges="gneE14 gneE16" color="grey" id="route_11"/>
+    <route edges="gneE14 gneE16" color="grey" id="route_12"/>
+    <route edges="gneE13 gneE15" color="grey" id="route_2"/>
+    <route edges="gneE17 gneE18" color="yellow" id="route_3"/>
+    <route edges="gneE17 gneE15" color="blue" id="route_4"/>
+    <route edges="gneE17 gneE19" color="grey" id="route_5"/>
+    <route edges="gneE20 gneE19" color="yellow" id="route_6"/>
+    <route edges="gneE20 gneE16" color="blue" id="route_7"/>
+    <route edges="gneE20 gneE18" color="grey" id="route_8"/>
+    <route edges="gneE14 gneE15" color="yellow" id="route_9"/>
+</routes>
