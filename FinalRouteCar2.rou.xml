@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 02/25/20 14:22:42 by Eclipse SUMO netedit Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\Matt\Documents\Capstone\sumo-1.4.0\bin\FinalNetwork.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\Matt\Documents\Capstone\sumo-1.4.0\bin\FinalNetwork.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="C:\Users\Matt\Documents\Capstone\sumo-1.4.0\bin\FinalRouteCar2.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route edges="2 7" color="yellow" id="route_0"/>
+    <route edges="2 8" color="yellow" id="route_1"/>
+    <route edges="1 7" color="yellow" id="route_10"/>
+    <route edges="1 -gneE0" color="yellow" id="route_11"/>
+    <route edges="gneE0 -gneE1" color="yellow" id="route_2"/>
+    <route edges="3 -gneE0" color="yellow" id="route_3"/>
+    <route edges="3 -gneE1" color="yellow" id="route_4"/>
+    <route edges="3 8" color="yellow" id="route_5"/>
+    <route edges="4 7" color="yellow" id="route_6"/>
+    <route edges="4 -gneE0" color="yellow" id="route_7"/>
+    <route edges="4 -gneE1" color="yellow" id="route_8"/>
+    <route edges="gneE1 8" color="yellow" id="route_9"/>
+    <flow id="flow1" begin="0.00" route="route_9" end="900.00" period="12.50"/>
+</routes>
