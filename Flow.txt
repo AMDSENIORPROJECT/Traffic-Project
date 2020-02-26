@@ -1,0 +1,29 @@
+import csv
+
+route = ["route_9", "route_10", "route_11", "route_6", "route_7", "route_8", "route_3", "route_4", "route_5", "route_0", "route_1", "route_2",]
+cars = []
+y = 0
+with open('Traffic.csv') as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter=',')
+    for row in csv_reader:
+      x = 0
+      while x <= 47:
+        cars.append(row[x])
+        x += 1
+        y += 1
+
+x = 0
+y = 0
+ident = 0
+while x < 12:
+  z = 0
+  begin = 0
+  end = 900
+  while z < 48:
+    print("<flow id=\"flow" + str(ident) + "\" begin=\"" + str(begin) + "\" route=\"" + route[x] + "\" end=\"" + str(end) + "\" period=\"" + str(900/int(cars[y])) + "\"/>")
+    z += 1
+    y += 1
+    ident += 1
+    begin += 900
+    end += 900
+  x += 1
