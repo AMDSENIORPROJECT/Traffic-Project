@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 02/26/20 14:05:05 by Eclipse SUMO GUI Version 1.4.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\Dylan B\Desktop\Hood Stuff\2020 -2021\CS 475 Senior Seminar\sumo-win64-1.4.0\sumo-1.4.0\bin\Traffic-Project-master\FinalNetwork.net.xml"/>
+        <route-files value="C:\Users\Dylan B\Desktop\Hood Stuff\2020 -2021\CS 475 Senior Seminar\sumo-win64-1.4.0\sumo-1.4.0\bin\Traffic-Project-master\FinalRoute.rou.xml"/>
+		<additional-files value="C:\Users\Dylan B\Desktop\Hood Stuff\2020 -2021\CS 475 Senior Seminar\sumo-win64-1.4.0\sumo-1.4.0\bin\Traffic-Project-master\Finaladd2.add.xml"/>
+    </input>
+	
+	<output>
+		<netstate-dump value= "dump.xml" />
+		<tripinfo-output value="OUTPUT_2.xml"/>
+		<queue-output value="OUTPUT_3.xml"/>
+	</output>
+	
+    <gui_only>
+        <registry-viewport value="true"/>
+    </gui_only>
+	
+	<time>
+		<begin value="0"/>
+		<end value="20000"/>
+	</time>
+
+</configuration>
