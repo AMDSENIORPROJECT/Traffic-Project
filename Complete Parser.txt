@@ -1,0 +1,41 @@
+file1 = open("LaneInfo.txt")
+terms = []
+words = []
+mean = []
+for line in file1:
+  word = ""
+  for ch in line:
+    word = word + ch
+    #print(ch)
+  #print("1\n")
+  terms.append(line)
+
+#print(terms)
+for term in terms:
+  words = words + term.split(" ")
+#print(words)
+
+for word in words:
+  if("waitingTime" in word):
+    temp = word.replace("waitingTime=\"", '')
+    temp = temp.replace("\"", '')
+    mean.append(float(temp))
+print(sum(mean) / len(mean))
+
+check = False
+cont = False
+lane = ""
+for word in words:
+  if(check):
+    check = False
+    cont = True
+    lane = word
+  if("<lane" == word):
+    check = True
+  else:
+    check = False
+  if(cont):
+    if("speed" in word):
+      print(lane)
+      print(word)
+      cont = False
