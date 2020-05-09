@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 02/13/20 17:42:41 by Eclipse SUMO netedit Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\Matt\Documents\Capstone\sumo-1.4.0\bin\Prototype1.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\Matt\Documents\Capstone\sumo-1.4.0\bin\Prototype1.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="C:\Users\Matt\Documents\Capstone\sumo-1.4.0\bin\ProtoType.rou.xml"/>
+    </netedit>
+
+    <visualisation>
+        <registry-viewport value="true"/>
+    </visualisation>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route edges="2 8" color="yellow" id="route_10"/>
+    <route edges="2 5" color="yellow" id="route_11"/>
+    <route edges="3 8" color="yellow" id="route_3"/>
+    <route edges="3 6" color="yellow" id="route_4"/>
+    <route edges="3 5" color="yellow" id="route_5"/>
+    <route edges="1 6" color="yellow" id="route_6"/>
+    <route edges="1 8" color="yellow" id="route_7"/>
+    <route edges="1 7" color="yellow" id="route_8"/>
+    <route edges="2 7" color="yellow" id="route_9"/>
+    <vehicle id="vehicle_16" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_17" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_18" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_19" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_20" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_21" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_22" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_23" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_24" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_25" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_26" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_27" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_28" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_29" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_30" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_31" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_32" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_33" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_34" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_35" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_36" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_37" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_38" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_39" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_40" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_41" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_42" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_43" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_44" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_45" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_46" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_47" depart="0.00" route="route_9"/>
+    <vehicle id="vehicle_69" depart="0.00" route="route_4"/>
+    <vehicle id="vehicle_70" depart="0.00" route="route_4"/>
+    <vehicle id="vehicle_71" depart="0.00" route="route_4"/>
+    <vehicle id="vehicle_72" depart="0.00" route="route_4"/>
+    <vehicle id="vehicle_73" depart="0.00" route="route_4"/>
+    <vehicle id="vehicle_74" depart="0.00" route="route_4"/>
+    <vehicle id="vehicle_75" depart="0.00" route="route_4"/>
+    <vehicle id="vehicle_76" depart="0.00" route="route_4"/>
+    <vehicle id="vehicle_77" depart="0.00" route="route_7"/>
+    <vehicle id="vehicle_78" depart="0.00" route="route_7"/>
+    <vehicle id="vehicle_79" depart="0.00" route="route_7"/>
+    <vehicle id="vehicle_80" depart="0.00" route="route_7"/>
+    <vehicle id="vehicle_81" depart="0.00" route="route_10"/>
+    <vehicle id="vehicle_82" depart="0.00" route="route_10"/>
+    <vehicle id="vehicle_83" depart="0.00" route="route_10"/>
+    <vehicle id="vehicle_84" depart="0.00" route="route_10"/>
+    <vehicle id="vehicle_85" depart="0.00" route="route_10"/>
+    <vehicle id="vehicle_86" depart="0.00" route="route_10"/>
+    <vehicle id="vehicle_87" depart="0.00" route="route_10"/>
+    <vehicle id="vehicle_88" depart="0.00" route="route_8"/>
+    <vehicle id="vehicle_89" depart="0.00" route="route_8"/>
+    <vehicle id="vehicle_90" depart="0.00" route="route_8"/>
+    <vehicle id="vehicle_91" depart="0.00" route="route_8"/>
+    <vehicle id="vehicle_92" depart="0.00" route="route_7"/>
+    <vehicle id="vehicle_93" depart="0.00" route="route_7"/>
+    <vehicle id="vehicle_94" depart="0.00" route="route_7"/>
+    <vehicle id="vehicle_95" depart="0.00" route="route_11"/>
+    <vehicle id="vehicle_96" depart="0.00" route="route_11"/>
+    <vehicle id="vehicle_97" depart="0.00" route="route_4"/>
+    <vehicle id="vehicle_98" depart="0.00" route="route_4"/>
+</routes>

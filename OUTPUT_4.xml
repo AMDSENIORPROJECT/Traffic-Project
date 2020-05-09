@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 05/04/20 13:45:52 by Eclipse SUMO GUI Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\Matt\Documents\Capstone\sumo-1.4.0\bin\RF4.net.xml"/>
+        <route-files value="C:\Users\Matt\Documents\Capstone\sumo-1.4.0\bin\RfinalDemand.rou.xml"/>
+        <additional-files value="C:\Users\Matt\Documents\Capstone\sumo-1.4.0\bin\RAdd.add.xml"/>
+    </input>
+
+    <output>
+        <netstate-dump value="C:\Users\Matt\Documents\Capstone\sumo-1.4.0\bin\Rdump.xml"/>
+        <queue-output value="C:\Users\Matt\Documents\Capstone\sumo-1.4.0\bin\ROUTPUT_3.xml"/>
+        <tripinfo-output value="C:\Users\Matt\Documents\Capstone\sumo-1.4.0\bin\ROUTPUT_2.xml"/>
+    </output>
+
+    <gui_only>
+        <registry-viewport value="true"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+</meandata>
