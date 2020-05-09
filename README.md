@@ -9,3 +9,5 @@ Alain shekanino - ams49@hood.edu
 Matthew Blank - mb68@hood.edu
 
 Video Link = 
+Midterm Presentation Demo:
+Video Link= https://youtu.be/EX-QwW-lbR4
